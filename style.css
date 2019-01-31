@@ -55,10 +55,17 @@ body {
   float: right;
 }
 
-/* @media screen and (max-width: 500px) {
-    .header a {
-    float: none;
-    display: block;
-    text-align: left;  
-} */
-
+@media screen and (max-width: 500px) {
+  .header a {
+  float: none;
+  display: block;
+  text-align: left;  
+}
+  .header-right{
+    float:none;
+  }
+  #showcase{
+    width:73vh;
+    height:100vh;
+  }
+}
